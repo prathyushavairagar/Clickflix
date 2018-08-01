@@ -1,0 +1,126 @@
+.container
+{
+background:;
+padding:0;
+margin:0;
+height:270vh;
+border-radius:2px;
+width:100%;
+}
+
+nav > a
+{
+	font-size: 30px;
+	color:red;
+}
+
+.btn
+{
+padding-left:20vw;
+
+}
+.outer-box
+{
+	margin:0vh;
+	height:85vh;
+	width:100%;
+	
+	background-color:black;
+}
+.outer-box > h1
+{
+	color:#ffff00;
+}
+
+.table
+{
+	width:80%;
+}
+#infotable
+{
+	padding:5vw;
+
+}
+.middlelement
+{
+	color:red; 
+	padding-top:2vw;
+	font-size:30px;
+}
+.middlelement > p
+{
+	color:black;
+	font-size:22px;
+}
+#result
+{
+	width:auto;
+	overflow:hidden;
+}
+
+#submit{
+	cursor: pointer;
+}
+
+
+
+@media only screen and (max-width:450px)
+{
+
+.outer-box
+{
+	height:70vh;
+}
+.outer-box> h1
+{
+	font-size:20px;
+}
+.middlelement>h2
+{
+font-size:18px;
+}
+
+.middlelement>p
+{
+	font-size:16px;
+}
+.navbar > img
+{
+	width:50px;
+	height:50px;
+	padding:0;
+	margin:0;
+}
+.input-group
+{
+	width:auto;
+	height:auto;
+	overflow:hidden;
+}
+
+
+}
+
+@media only screen and (max-width:160px)
+{
+	.middlelement
+	{
+		overflow:hidden;
+	}
+
+.outer-box
+{
+	height:80vh;
+	overflow:hidden;
+}
+
+.navbar
+{
+	overflow:hidden;
+}
+
+
+}
+
+
+

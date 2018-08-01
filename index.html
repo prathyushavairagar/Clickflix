@@ -1,0 +1,102 @@
+<html>
+<head>
+	<title>Click|Flix</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar xs-12 sm-12 no-gutter navbar-expand-lg navbar-dark bg-dark">
+
+		
+    <img src="movielogo.png" width="70" height="70" class="d-inline-block align-top" alt="">
+   
+ <a class="navbar-brand " href="index.html"><strong><h1>ClickFlix</h1></strong></a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse no gutter" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+     
+      <li class="nav-item active" style=>
+        <strong><a class="nav-link" href="https://www.imdb.com/"><h3>IMDB Website</h3></a></strong>
+      </li>
+     
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="searchbutton">Search Movies!</button>
+    </form>
+  </div>
+</nav>
+
+
+
+
+
+
+
+<div class="container-fluid bg-info">
+<div class="middlelement">
+<center><h2><b>Welcome to ClickFlix</b></h2></center>
+<br>
+<p>This is a Movie Searching Website. Here You can Search and get information related to the millions of Movies.You have options to search based on Title or IMDB ID or Year. Check your favourite movie information here!! </p>
+
+
+<div class="outer-box">
+<br>
+<h1><center>Movie Search</center></h1>
+<br>
+
+
+<div class="input-group mb-3" style="width:80%; padding-left:12vw;">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Title</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Sizing example input" id="title" aria-describedby="inputGroup-sizing-default">
+</div>
+
+<div class="input-group mb-3" style="width:80%; padding-left:12vw;">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Year</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Sizing example input" id="year" aria-describedby="inputGroup-sizing-default">
+</div>
+
+<div class="input-group mb-3" style="width:80%; padding-left:12vw;">
+  <div class="input-group-prepend">
+    <span class="input-group-text" >IMDB Id</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Sizing example input" id="imdb" aria-describedby="inputGroup-sizing-default">
+</div>
+<br>
+<center>
+<button type="button" class="btn btn-danger btn-lg" id="submit" >Search</button></center>
+
+
+</div>
+</div>
+<br>
+<div id="result">
+                    <table class="table table-warning">
+                        <thead>
+
+                        </thead>
+                        <tbody id="infoTable">
+
+                        </tbody>
+                    </table>
+                </div>
+</div>
+</div>
+
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script src="practise.js"></script>
+</body>
+</html>
